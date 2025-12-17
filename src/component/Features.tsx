@@ -57,13 +57,13 @@ const Features = () => {
             key={item.id}
             className="p-6 bg-white rounded-xl shadow 
                  hover:-translate-y-2 transition 
-                 flex flex-col items-center w-full 2xl:w-[31.7%] md:w-[45%]"
+                 flex flex-col items-center w-full 2xl:w-[30%] md:w-[45%]"
           >
             <img src={item.img} alt={item.title} className="w-16 h-16 mb-4" />
 
-            <h3 className="font-semibold text-lg sm:text-xl xl:text-2xl mb-2">{item.title}</h3>
+            <h3 className="font-semibold text-base sm:text-base xl:text-lg mb-2">{item.title}</h3>
 
-            <p className="text-gray-600 text-sm sm:text-lg xl:text-xl">{item.desc}</p>
+            <p className="text-gray-600 text-sm sm:text-sm xl:text-base">{item.desc}</p>
           </div>
         ))}
       </div>
