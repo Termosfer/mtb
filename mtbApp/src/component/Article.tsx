@@ -1,6 +1,9 @@
 import video from "../assets/3197808-hd_1920_1080_25fps.mp4";
-
-const articleSections = [
+interface Article{
+  id:number;
+  content:string
+}
+const articleSections: Article[] = [
   {
     id: 1,
     content:
@@ -32,15 +35,14 @@ const Article = () => {
 
   return (
     <section className="mx-auto px-4 sm:px-8 md:px-16 xl:px-30 py-12 md:py-20">
-      {/* Title */}
+      
       <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold
                      text-center md:text-center pb-10 md:pb-16">
         Azərbaycanın Səhiyyəsinin İnkişafı
       </h1>
 
-      {/* Video + Text */}
       <div className="flex flex-col xl:flex-row items-center gap-8">
-        {/* Video */}
+        
         <div className="w-full xl:w-1/2">
           <video
             src={video}
@@ -54,7 +56,7 @@ const Article = () => {
           ></video>
         </div>
 
-        {/* Text */}
+      
         <div className="w-full xl:w-1/2 flex flex-col gap-4 text-gray-700">
           {articleSections.map((section) => (
             <p

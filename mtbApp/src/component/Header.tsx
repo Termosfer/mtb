@@ -43,7 +43,7 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white z-50 shadow flex justify-between items-center px-4 sm:px-10  h-15 md:h-20">
       <img src={logo} alt="Logo" className="h-15 w-30 sm:h-15 sm:w-50  md:w-50  xl:w-75 2xl:w-100 object-cover" />
 
-      {/* Desktop Menu */}
+      
       <ul className="hidden md:flex gap-4 lg:gap-6 text-base sm:text-xl font-medium">
         {menu.map((item) => (
           <li key={item.id}>
@@ -65,7 +65,7 @@ const Header = () => {
         ))}
       </ul>
 
-      {/* Mobile Menu Toggle */}
+
       <div className="md:hidden">
         <button
           onClick={() => setMenuOpen(!menuOpen)}
@@ -81,7 +81,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-center py-4 md:hidden">
           {menu.map((item) => (

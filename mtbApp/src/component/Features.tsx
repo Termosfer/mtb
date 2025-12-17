@@ -4,7 +4,14 @@ import img3 from "../assets/monitor.png";
 import img4 from "../assets/documents.png";
 import img5 from "../assets/group.png";
 
-const features = [
+interface Feature {
+  id: number;
+  img: string;
+  title: string;
+  desc: string;
+}
+
+const features: Feature[] = [
   {
     id: 1,
     img: img1,

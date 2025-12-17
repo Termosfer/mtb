@@ -7,12 +7,12 @@ const About = () => {
       id="about"
       className="px-4 sm:px-8 md:px-16 xl:px-30 py-12 md:py-20"
     >
-      {/* Section title */}
+      
       <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold pb-10 md:pb-16">
         Haqqımızda
       </h1>
 
-      {/* Block 1 */}
+    
       <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16 pb-16 md:pb-20">
         <div className="overflow-hidden rounded-xl w-full md:w-1/2">
           <img
@@ -37,7 +37,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* Block 2 */}
+      
       <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
         <div className="text-left w-full md:w-1/2">
           <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">

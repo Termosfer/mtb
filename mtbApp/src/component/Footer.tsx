@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="bg-gray-800 text-white py-10 mt-20" id="footer">
       <div className="max-w-7xl mx-auto px-4 sm:px-8 md:px-16 xl:px-30 flex flex-col md:flex-row justify-between items-center md:items-start gap-8 md:gap-6">
         
-        {/* Ünvan və Kontakt */}
+       
         <div className="flex flex-col gap-5 text-center md:text-left w-full md:w-auto">
           <div className="flex items-center gap-3 md:gap-5 justify-center md:justify-start">
             <svg
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Sosial Linklər */}
+       
         <div className="flex gap-4 justify-center md:justify-start w-full md:w-auto">
           <a href="#" className="hover:text-blue-400 transition text-lg sm:text-xl">
             Facebook
@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
+      
       <div className="mt-6 text-center text-gray-400 text-sm sm:text-lg">
         &copy; {new Date().getFullYear()} MTB İncorporate MMC. Bütün hüquqlar qorunur.
       </div>
