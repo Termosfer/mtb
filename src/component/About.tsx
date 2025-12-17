@@ -14,7 +14,7 @@ const About = () => {
 
     
       <div className="flex flex-col lg:flex-row items-center gap-10 md:gap-16 pb-16 md:pb-20">
-        <div className="overflow-hidden rounded-xl w-full md:w-1/2">
+        <div className="overflow-hidden rounded-xl w-full lg:w-1/2">
           <img
             src={img1}
             alt="seminar"
@@ -24,7 +24,7 @@ const About = () => {
           />
         </div>
 
-        <div className="text-left w-full md:w-1/2">
+        <div className="text-left w-full lg:w-1/2">
           <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">
             Biz kimik?
           </h2>
@@ -39,7 +39,7 @@ const About = () => {
 
       
       <div className="flex flex-col-reverse lg:flex-row items-center gap-10 md:gap-16">
-        <div className="text-left w-full md:w-1/2">
+        <div className="text-left w-full lg:w-1/2">
           <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">
             Niyə MTB İncorporate?
           </h2>
@@ -52,7 +52,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="overflow-hidden rounded-xl w-full md:w-1/2">
+        <div className="overflow-hidden rounded-xl w-full lg:w-1/2">
           <img
             src={img2}
             alt="muzakire"
