@@ -53,7 +53,7 @@ const Training = () => {
               setActiveCategory(category);
               setOpenIndex(null);
             }}
-            className={`px-4 py-2 rounded-lg font-medium text-sm md:text-base xl:text-lg  transition  w-50 xl:w-60 cursor-pointer ${
+            className={`px-3 py-2 rounded-lg font-medium text-sm md:text-base xl:text-lg  transition  w-50 xl:w-60 cursor-pointer ${
               activeCategory === category
                 ? "bg-blue-600 text-white"
                 : "bg-gray-200 text-gray-700 hover:bg-gray-300"
