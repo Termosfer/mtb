@@ -41,10 +41,10 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 w-full bg-white z-50 shadow flex justify-between items-center px-4 sm:px-10  h-15 md:h-20">
-      <img src={logo} alt="Logo" className="h-15 w-30 sm:h-15 sm:w-50  md:w-50  xl:w-75 2xl:w-100 object-cover" />
+      <img src={logo} alt="Logo" className="h-15 w-30 sm:h-15   md:w-40  lg:w-50 2xl:w-75  object-cover" />
 
       
-      <ul className="hidden md:flex gap-4 lg:gap-6 text-base sm:text-xl font-medium">
+      <ul className="hidden md:flex gap-4 lg:gap-6 text-base  lg:text-md  2xl:text-xl font-medium">
         {menu.map((item) => (
           <li key={item.id}>
             <Link
