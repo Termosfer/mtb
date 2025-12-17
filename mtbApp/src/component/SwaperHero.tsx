@@ -10,8 +10,7 @@ import img4 from "../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg";
 // Swiper styles
 import "swiper/css";
 import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+
 
 
 import { EffectFade, Autoplay } from "swiper/modules";
