@@ -9,7 +9,7 @@ const Scrolltotop = () => {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "smooth", // istəsən "auto" da ola bilər
+      behavior: "smooth", 
     });
   }, [pathname]);
 
