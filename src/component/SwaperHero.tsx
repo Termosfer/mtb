@@ -66,8 +66,8 @@ const SwaperHero = () => {
         <SwiperSlide key={index} className="relative">
           <img src={slide.img} alt={slide.alt} className="w-full h-auto opacity-60 xl:h-[800px] object-cover" />
           <div className="absolute  top-1/2 right-0 xl:right-10 transform -translate-y-1/2 bg-transparent bg-opacity-50 text-white font-bold p-2 rounded hidden md:flex flex-col items-start  max-w-md md:max-w-xl  xl:max-w-2xl">
-            <p className="mb-4 text-left text-lg md:text-3xl xl:text-4xl uppercase ">{slide.text}</p>
-            <Link to="training"  smooth={true} duration={800} offset={-100} className=" py-3 px-5 rounded-lg text-sm sm:text-lg xl:text-xl text-white bg-transparent border border-white hover:bg-black hover:border-black transition-colors duration-300 cursor-pointer ">
+            <p className="mb-4 text-left text-sm md:text-xl xl:text-2xl uppercase ">{slide.text}</p>
+            <Link to="training"  smooth={true} duration={800} offset={-100} className=" py-3 px-5 rounded-lg text-xs sm:text-base xl:text-base text-white bg-transparent border border-white hover:bg-black hover:border-black transition-colors duration-300 cursor-pointer ">
               Təlimlərə bax
             </Link>
           </div>
