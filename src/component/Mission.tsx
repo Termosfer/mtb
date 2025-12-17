@@ -13,7 +13,7 @@ const Mission = () => {
         Məqsədimiz
       </h2>
 
-      <p className="text-sm sm:text-base md:text-sm 2xl:text-sm
+      <p className="text-sm sm:text-base md:text-base 
                     text-gray-700 leading-12">
         “Azərbaycanın tibbi təhsil sahəsində innovativ, etibarlı və nüfuzlu
         tədris mərkəzlərindən biri olmaq, tələbələrimizi müasir texnologiyalar
