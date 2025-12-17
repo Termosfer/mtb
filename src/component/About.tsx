@@ -13,7 +13,7 @@ const About = () => {
       </h1>
 
     
-      <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16 pb-16 md:pb-20">
+      <div className="flex flex-col lg:flex-row items-center gap-10 md:gap-16 pb-16 md:pb-20">
         <div className="overflow-hidden rounded-xl w-full md:w-1/2">
           <img
             src={img1}
@@ -28,7 +28,7 @@ const About = () => {
           <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">
             Biz kimik?
           </h2>
-          <p className="pt-4 text-sm sm:text-base   md:text-base  2xl:text-base text-gray-700 leading-12">
+          <p className="pt-4 text-sm sm:text-base   md:text-base  2xl:text-base text-gray-700 lg:leading-12">
             MTB İncorporate MMC 2009-cu ildə təsis edilmişdir və tibbi təhsil,
             farmakologiya sahəsində ixtisaslaşmış tədris mərkəzidir.
             Fəaliyyətimizin əsas məqsədi səhiyyə mütəxəssislərinin bilik və
@@ -38,12 +38,12 @@ const About = () => {
       </div>
 
       
-      <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
+      <div className="flex flex-col-reverse lg:flex-row items-center gap-10 md:gap-16">
         <div className="text-left w-full md:w-1/2">
           <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">
             Niyə MTB İncorporate?
           </h2>
-          <p className="pt-4 text-sm sm:text-base  md:text-base 2xl:text-base text-gray-700 leading-12">
+          <p className="pt-4 text-sm sm:text-base  md:text-base 2xl:text-base text-gray-700 lg:leading-12">
             Uzun illər ərzində tibbi müəssisələr və sahə mütəxəssisləri üçün
             etibarlı tərəfdaş kimi fəaliyyət göstərən MTB İncorporate MMC,
             peşəkar ekspertiza və keyfiyyətə əsaslanan yanaşması ilə seçilir.
