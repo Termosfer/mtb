@@ -53,7 +53,7 @@ const Training = () => {
               setActiveCategory(category);
               setOpenIndex(null);
             }}
-            className={`px-4 py-2 rounded-lg font-semibold text-lg sm:text-xl xl:text-2xl  transition w-75 cursor-pointer ${
+            className={`px-4 py-2 rounded-lg font-semibold text-sm sm:text-lg xl:text-xl  transition w-75 cursor-pointer ${
               activeCategory === category
                 ? "bg-blue-600 text-white"
                 : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -74,7 +74,7 @@ const Training = () => {
               onClick={() => toggle(index)}
               className="w-full flex justify-between items-center p-4 bg-gray-100 hover:bg-gray-200 transition"
             >
-              <span className=" text-lg sm:text-xl xl:text-2xl font-semibold">{item.title}</span>
+              <span className=" text-sm sm:text-lg xl:text-xl font-medium">{item.title}</span>
               <span className="text-2xl">{openIndex === index ? "−" : "+"}</span>
             </button>
             <div
@@ -82,7 +82,7 @@ const Training = () => {
                 openIndex === index ? "max-h-40 py-4" : "max-h-0 overflow-hidden"
               }`}
             >
-              <p className="text-gray-700 text-sm sm:text-lg xl:text-xl font-semibold">{item.desc}</p>
+              <p className="text-gray-700 text-sm sm:text-lg xl:text-xl font-medium">{item.desc}</p>
             </div>
           </div>
         ))}
