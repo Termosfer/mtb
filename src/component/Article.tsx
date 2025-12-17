@@ -61,7 +61,7 @@ const Article = () => {
           {articleSections.map((section) => (
             <p
               key={section.id}
-              className="text-sm sm:text-base md:text-lg xl:text-xl leading-relaxed text-left"
+              className="text-sm md:text-base  xl:text-base leading-relaxed text-left"
             >
               {section.content}
             </p>
