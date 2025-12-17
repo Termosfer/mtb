@@ -25,7 +25,7 @@ const About = () => {
         </div>
 
         <div className="text-left w-full lg:w-1/2">
-          <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">
+          <h2 className="text-lg sm:text-xl xl:text-2xl font-semibold">
             Biz kimik?
           </h2>
           <p className="pt-4 text-sm sm:text-base   md:text-base  2xl:text-base text-gray-700 leading-8 lg:leading-12">
@@ -40,7 +40,7 @@ const About = () => {
       
       <div className="flex flex-col-reverse lg:flex-row items-center gap-10 md:gap-16">
         <div className="text-left w-full lg:w-1/2">
-          <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">
+          <h2 className="text-lg sm:text-xl xl:text-2xl font-semibold">
             Niyə MTB İncorporate?
           </h2>
           <p className="pt-4 text-sm sm:text-base  md:text-base 2xl:text-base text-gray-700 leading-8 lg:leading-12">
