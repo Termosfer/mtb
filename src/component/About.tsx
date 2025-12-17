@@ -28,7 +28,7 @@ const About = () => {
           <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">
             Biz kimik?
           </h2>
-          <p className="pt-4 text-sm sm:text-base   md:text-base  2xl:text-base text-gray-700 lg:leading-12">
+          <p className="pt-4 text-sm sm:text-base   md:text-base  2xl:text-base text-gray-700 leading-8 lg:leading-12">
             MTB İncorporate MMC 2009-cu ildə təsis edilmişdir və tibbi təhsil,
             farmakologiya sahəsində ixtisaslaşmış tədris mərkəzidir.
             Fəaliyyətimizin əsas məqsədi səhiyyə mütəxəssislərinin bilik və
@@ -43,7 +43,7 @@ const About = () => {
           <h2 className="text-xl sm:text-2xl xl:text-4xl font-semibold">
             Niyə MTB İncorporate?
           </h2>
-          <p className="pt-4 text-sm sm:text-base  md:text-base 2xl:text-base text-gray-700 lg:leading-12">
+          <p className="pt-4 text-sm sm:text-base  md:text-base 2xl:text-base text-gray-700 leading-8 lg:leading-12">
             Uzun illər ərzində tibbi müəssisələr və sahə mütəxəssisləri üçün
             etibarlı tərəfdaş kimi fəaliyyət göstərən MTB İncorporate MMC,
             peşəkar ekspertiza və keyfiyyətə əsaslanan yanaşması ilə seçilir.
