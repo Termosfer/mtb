@@ -53,7 +53,7 @@ const Training = () => {
               setActiveCategory(category);
               setOpenIndex(null);
             }}
-            className={`px-4 py-2 rounded-lg font-semibold text-sm md:text-base xl:text-lg  transition w-75 cursor-pointer ${
+            className={`px-4 py-2 rounded-lg font-medium text-sm md:text-base xl:text-lg  transition  w-50 xl:w-60 cursor-pointer ${
               activeCategory === category
                 ? "bg-blue-600 text-white"
                 : "bg-gray-200 text-gray-700 hover:bg-gray-300"
@@ -75,7 +75,7 @@ const Training = () => {
               className="w-full flex justify-between items-center p-4 bg-gray-100 hover:bg-gray-200 transition"
             >
               <span className=" text-sm md:text-base xl:text-lg font-medium">{item.title}</span>
-              <span className="text-2xl">{openIndex === index ? "−" : "+"}</span>
+              <span className="text-sm md:text-base xl:text-lg">{openIndex === index ? "−" : "+"}</span>
             </button>
             <div
               className={`transition-all duration-300 px-4 ${
