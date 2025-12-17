@@ -18,7 +18,7 @@ const About = () => {
           <img
             src={img1}
             alt="seminar"
-            className="w-full h-[250px] sm:h-[320px] md:h-[480px] object-cover
+            className="w-full h-[250px] sm:h-[320px] md:h-[480px] 2xl:h-[400px] object-cover
                        rounded-xl scale-100 hover:scale-110
                        transition-transform duration-700 ease-in-out"
           />
@@ -56,7 +56,7 @@ const About = () => {
           <img
             src={img2}
             alt="muzakire"
-            className="w-full h-[250px] sm:h-[320px] md:h-[480px] object-cover
+            className="w-full h-[250px] sm:h-[320px] md:h-[480px] 2xl:h-[400px] object-cover
                        rounded-xl scale-100 hover:scale-110
                        transition-transform duration-700 ease-in-out"
           />
