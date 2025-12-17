@@ -59,7 +59,7 @@ const Features = () => {
                  hover:-translate-y-2 transition 
                  flex flex-col items-center w-full 2xl:w-[30%] md:w-[45%]"
           >
-            <img src={item.img} alt={item.title} className="w-16 h-16 mb-4" />
+            <img src={item.img} alt={item.title} className="w-10 h-10  md:w-14  md:h-14 mb-4" />
 
             <h3 className="font-semibold text-base sm:text-base xl:text-lg mb-2">{item.title}</h3>
 
