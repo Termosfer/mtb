@@ -44,7 +44,7 @@ const Header = () => {
       <img src={logo} alt="Logo" className="h-15 w-30 sm:h-15   md:w-40  lg:w-40 2xl:w-50  object-cover" />
 
       
-      <ul className="hidden md:flex gap-4 lg:gap-6 text-sm lg:text-md  2xl:text-xl font-medium">
+      <ul className="hidden md:flex gap-4 lg:gap-6 text-sm lg:text-sm  2xl:text-base font-medium">
         {menu.map((item) => (
           <li key={item.id}>
             <Link
