@@ -41,8 +41,8 @@ const Training = () => {
   };
 
   return (
-    <div className="px-4 sm:px-8 md:px-16 xl:px-30 py-20">
-      <h2 className="text-3xl sm:text-4xl xl:text-5xl font-semibold text-center mb-10" id="training">Təlimlərimiz</h2>
+    <div className="px-4 sm:px-8 md:px-16 xl:px-30 py-20" id="training">
+      <h2 className="text-3xl sm:text-4xl xl:text-5xl font-semibold text-center mb-10" >Təlimlərimiz</h2>
 
       
       <div className="flex justify-center mb-8 space-x-4">

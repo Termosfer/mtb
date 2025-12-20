@@ -5,11 +5,11 @@ const Mission = () => {
       id="mission"
       className="bg-gray-50 my-12 md:my-20 py-16 md:py-20"
     >
-      <div className=" mx-auto
+      <div className="mx-auto
                  px-4 sm:px-8 md:px-16 xl:px-30
                  text-center max-w-5xl">
 
-      <h2 className="text-3xl sm:text-4xl xl:text-5xl font-semibold pb-8 md:pb-12">
+      <h2 className="text-3xl sm:text-4xl xl:text-5xl font-semibold pb-8 md:pb-12 ">
         Məqsədimiz
       </h2>
 

@@ -34,7 +34,7 @@ const articleSections: Article[] = [
 const Article = () => {
 
   return (
-    <section className="mx-auto px-4 sm:px-8 md:px-16 xl:px-30 py-12 md:py-20">
+    <section className="mx-auto px-4 sm:px-8 md:px-16 xl:px-30 my-12 md:my-20 py-16 md:py-20">
       
       <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold
                      text-center md:text-center pb-10 md:pb-16">

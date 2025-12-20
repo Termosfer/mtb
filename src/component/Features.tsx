@@ -46,9 +46,12 @@ const features: Feature[] = [
 
 const Features = () => {
   return (
-    <div className=" py-20 mx-auto
-                 px-4 sm:px-8 md:px-16 xl:px-30">
-      <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold pb-20" id="features">
+    <div
+      className=" my-12 md:my-20 py-16 md:py-20 mx-auto
+                 px-4 sm:px-8 md:px-16 xl:px-30"
+      id="features"
+    >
+      <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold pb-20">
         Əsas fəaliyyət istiqamətlərimiz
       </h1>
       <div className="flex flex-wrap justify-center gap-10">
@@ -59,11 +62,19 @@ const Features = () => {
                  hover:-translate-y-2 transition 
                  flex flex-col items-center w-full 2xl:w-[30%] md:w-[45%]"
           >
-            <img src={item.img} alt={item.title} className="w-10 h-10  md:w-14  md:h-14 mb-4" />
+            <img
+              src={item.img}
+              alt={item.title}
+              className="w-10 h-10  md:w-14  md:h-14 mb-4"
+            />
 
-            <h3 className="font-semibold text-base sm:text-base xl:text-lg mb-2">{item.title}</h3>
+            <h3 className="font-semibold text-base sm:text-base xl:text-lg mb-2">
+              {item.title}
+            </h3>
 
-            <p className="text-gray-600 text-sm sm:text-sm xl:text-base">{item.desc}</p>
+            <p className="text-gray-600 text-sm sm:text-sm xl:text-base">
+              {item.desc}
+            </p>
           </div>
         ))}
       </div>
