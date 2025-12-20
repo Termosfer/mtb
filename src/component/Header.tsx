@@ -18,36 +18,37 @@ const Header = () => {
     { name: "Əlaqə", id: "footer" },
   ];
 
-useEffect(() => {
-  const handleScroll = () => {
-    const scrollPos = window.scrollY + window.innerHeight / 2; // viewport-un orta nöqtəsi
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPos = window.scrollY + window.innerHeight / 2; // viewport-un orta nöqtəsi
 
-    let current: string | null = null;
+      let current: string | null = null;
 
-    menu.forEach((item) => {
-      const section = document.getElementById(item.id);
-      if (!section) return;
+      menu.forEach((item) => {
+        const section = document.getElementById(item.id);
+        if (!section) return;
 
-      if (scrollPos >= section.offsetTop) {
-        current = item.id;
+        if (scrollPos >= section.offsetTop) {
+          current = item.id;
+        }
+      });
+
+      // Footer üçün xüsusi fix
+      if (
+        window.innerHeight + window.scrollY >=
+        document.documentElement.scrollHeight - 10
+      ) {
+        current = "footer";
       }
-    });
 
-    // Footer üçün xüsusi fix
-    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 10) {
-      current = "footer";
-    }
+      setActive(current);
+    };
 
-    setActive(current);
-  };
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // səhifə reload olduqda da active olsun
 
-  window.addEventListener("scroll", handleScroll);
-  handleScroll(); // səhifə reload olduqda da active olsun
-
-  return () => window.removeEventListener("scroll", handleScroll);
-}, []);
-
-
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <header className="fixed top-0 w-full bg-white z-50 shadow flex justify-between items-center px-4 sm:px-10  h-15 md:h-20">
@@ -62,6 +63,7 @@ useEffect(() => {
           <li key={item.id}>
             <a
               href={`#${item.id}`}
+              onClick={() => setActive(item.id)} 
               className={`px-3 py-2 rounded-md transition ${
                 active === item.id ? "bg-blue-600 text-white" : "text-black"
               }`}
@@ -116,6 +118,7 @@ useEffect(() => {
           {menu.map((item) => (
             <a
               href={`#${item.id}`}
+              onClick={() => setActive(item.id)} 
               className={`px-3 py-2 rounded-md transition ${
                 active === item.id ? "bg-blue-600 text-white" : "text-black"
               }`}
