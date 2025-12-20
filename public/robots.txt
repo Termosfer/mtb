@@ -1,0 +1,13 @@
+# robots.txt for MTB İncorporate
+
+# Bütün botlara icazə
+User-agent: *
+Allow: /
+
+# Gizli səhifələr, admin panel və login səhifələri
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://mtbincorporate.az/sitemap.xml
