@@ -68,9 +68,9 @@ const Features = () => {
               className="w-10 h-10  md:w-14  md:h-14 mb-4"
             />
 
-            <h3 className="font-semibold text-base sm:text-base xl:text-lg mb-2">
+            <h2 className="font-semibold text-base sm:text-base xl:text-lg mb-2">
               {item.title}
-            </h3>
+            </h2>
 
             <p className="text-gray-600 text-sm sm:text-sm xl:text-base">
               {item.desc}

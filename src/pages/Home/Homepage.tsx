@@ -8,16 +8,17 @@ import SwaperHero from "../../component/SwaperHero";
 import Training from "../../component/Training";
 
 const Homepage = () => {
-  
   return (
     <div>
       <Header />
-      <SwaperHero />
-      <About />
-      <Mission />
-      <Features />
-      <Training />
-      <Article />
+      <main>
+        <SwaperHero />
+        <About />
+        <Mission />
+        <Features />
+        <Training />
+        <Article />
+      </main>
       <Footer />
     </div>
   );
