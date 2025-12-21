@@ -20,7 +20,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPos = window.scrollY + window.innerHeight / 2; // viewport-un orta nöqtəsi
+      const scrollPos = window.scrollY + window.innerHeight / 2; 
 
       let current: string | null = null;
 
@@ -33,7 +33,7 @@ const Header = () => {
         }
       });
 
-      // Footer üçün xüsusi fix
+      
       if (
         window.innerHeight + window.scrollY >=
         document.documentElement.scrollHeight - 10
@@ -45,7 +45,7 @@ const Header = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // səhifə reload olduqda da active olsun
+    handleScroll(); 
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
