@@ -38,7 +38,7 @@ const Header = () => {
         window.innerHeight + window.scrollY >=
         document.documentElement.scrollHeight - 10
       ) {
-        current = "footer";
+        current = "əlaqə";
       }
 
       setActive(current);
