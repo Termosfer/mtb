@@ -12,7 +12,7 @@ const Homepage = () => {
     <div>
       <Header />
       <main>
-        {/* <SwaperHero /> */}
+        <SwaperHero />
         <About />
         <Mission />
         <Features />
