@@ -4,7 +4,7 @@ import img2 from "../assets/bermix-studio-00heEp9LFP0-unsplash.jpg";
 const About = () => {
   return (
     <section
-      id="about"
+      id="haqqimizda"
       className="px-4 sm:px-8 md:px-16 xl:px-30 py-12 md:py-20"
     >
       

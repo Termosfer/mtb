@@ -49,7 +49,7 @@ const Features = () => {
     <div
       className=" my-12 md:my-20 py-16 md:py-20 mx-auto
                  px-4 sm:px-8 md:px-16 xl:px-30"
-      id="features"
+      id="fəaliyyət"
     >
       <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold pb-20">
         Əsas fəaliyyət istiqamətlərimiz

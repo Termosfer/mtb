@@ -10,12 +10,12 @@ const Header = () => {
   const [active, setActive] = useState<string | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const menu: MenuItem[] = [
-    { name: "Haqqımızda", id: "about" },
-    { name: "Məqsəd", id: "mission" },
-    { name: "Fəaliyyət", id: "features" },
-    { name: "Təlimlər", id: "training" },
-    { name: "Əlaqə", id: "footer" },
+  const menuItems: MenuItem[] = [
+    { name: "Haqqımızda", id: "haqqimizda" },
+    { name: "Məqsəd", id: "məqsəd" },
+    { name: "Fəaliyyət", id: "fəaliyyət" },
+    { name: "Təlimlər", id: "təlimlər" },
+    { name: "Əlaqə", id: "əlaqə" },
   ];
 
   useEffect(() => {
@@ -24,7 +24,7 @@ const Header = () => {
 
       let current: string | null = null;
 
-      menu.forEach((item) => {
+      menuItems.forEach((item) => {
         const section = document.getElementById(item.id);
         if (!section) return;
 
@@ -59,7 +59,7 @@ const Header = () => {
       />
 
       <ul className="hidden md:flex gap-4 lg:gap-6 text-sm lg:text-sm  2xl:text-base font-medium">
-        {menu.map((item) => (
+        {menuItems.map((item) => (
           <li key={item.id}>
             <a
               href={`#${item.id}`}
@@ -115,7 +115,7 @@ const Header = () => {
 
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-center py-4 md:hidden">
-          {menu.map((item) => (
+          {menuItems.map((item) => (
             <a
               href={`#${item.id}`}
               onClick={() => setActive(item.id)} 

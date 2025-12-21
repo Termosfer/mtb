@@ -2,7 +2,7 @@
 const Mission = () => {
   return (
     <section
-      id="mission"
+      id="məqsəd"
       className="bg-gray-50 my-12 md:my-20 py-16 md:py-20"
     >
       <div className="mx-auto

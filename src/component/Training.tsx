@@ -41,7 +41,7 @@ const Training = () => {
   };
 
   return (
-    <div className="px-4 sm:px-8 md:px-16 xl:px-30 py-20" id="training">
+    <div className="px-4 sm:px-8 md:px-16 xl:px-30 py-20" id="təlimlər">
       <h2 className="text-3xl sm:text-4xl xl:text-5xl font-semibold text-center mb-10" >Təlimlərimiz</h2>
 
       
