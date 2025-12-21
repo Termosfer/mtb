@@ -52,11 +52,11 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 w-full bg-white z-50 shadow flex justify-between items-center px-4 sm:px-10  h-15 md:h-20">
-      <img
+     {/*  <img
         src={logo}
         alt="Logo"
         className="h-15 w-30 sm:h-15   md:w-40  lg:w-40 2xl:w-50  2xl:h-20 object-cover"
-      />
+      /> */}
 
       <ul className="hidden md:flex gap-4 lg:gap-6 text-sm lg:text-sm  2xl:text-base font-medium">
         {menuItems.map((item) => (
