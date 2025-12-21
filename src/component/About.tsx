@@ -29,10 +29,7 @@ const About = () => {
             Biz kimik?
           </h2>
           <p className="pt-4 text-sm sm:text-base   md:text-base  2xl:text-base text-gray-700 leading-8 lg:leading-12">
-            MTB İncorporate MMC 2009-cu ildə təsis edilmişdir və tibbi təhsil,
-            farmakologiya sahəsində ixtisaslaşmış tədris mərkəzidir.
-            Fəaliyyətimizin əsas məqsədi səhiyyə mütəxəssislərinin bilik və
-            bacarıqlarını müasir yanaşmalar əsasında inkişaf etdirməkdir.
+            MTB İncorporate MMC 2009-cu ildə təsis edilmiş və tibbi təhsil, farmakologiya sahəsində ixtisaslaşmış,  beynəlxalq təcrübəyə malik tədris mərkəzidir. Fəaliyyətimizin əsas məqsədi səhiyyə mütəxəssislərinin bilik və bacarıqlarını müasir yanaşmalar əsasında inkişaf etdirməkdir.
           </p>
         </div>
       </div>
@@ -44,11 +41,9 @@ const About = () => {
             Niyə MTB İncorporate?
           </h2>
           <p className="pt-4 text-sm sm:text-base  md:text-base 2xl:text-base text-gray-700 leading-8 lg:leading-12">
-            Uzun illər ərzində tibbi müəssisələr və sahə mütəxəssisləri üçün
-            etibarlı tərəfdaş kimi fəaliyyət göstərən MTB İncorporate MMC,
-            peşəkar ekspertiza və keyfiyyətə əsaslanan yanaşması ilə seçilir.
-            Təlimlərimiz real təcrübəyə əsaslanır və beynəlxalq standartlara
-            uyğun hazırlanır.
+            Uzun illər ərzində tibbi müəssisələr və sahə mütəxəssisləri üçün etibarlı tərəfdaş kimi fəaliyyət göstərən MTB İncorporate MMC, peşəkar ekspertiza və keyfiyyətə əsaslanan yanaşması ilə seçilir. 
+MTB İncorporate MMC daim beynəlxalq təcrübəni öyrənir və bu sahədə maarifləndirmə işləri üçün mütəxəssisləri cəlb edir.
+Təlimlərimiz real təcrübəyə əsaslanır və beynəlxalq standartlara uyğun hazırlanır.
           </p>
         </div>
 
