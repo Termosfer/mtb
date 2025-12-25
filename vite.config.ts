@@ -5,8 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
   build: {
-    minify: "esbuild", // "terser" da istifadə edə bilərsən
-    sourcemap: false,  // Prod üçün
+    minify: "esbuild", 
+    sourcemap: false,  
     rollupOptions: {
       output: {
         manualChunks: undefined,

@@ -89,7 +89,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-6 text-center text-gray-400 text-xs md:text-xs">
-        &copy; {new Date().getFullYear()} MTB İncorporate MMC. Bütün hüquqlar
+        &copy; 2023 MTB İncorporate MMC. Bütün hüquqlar
         qorunur.
       </div>
     </section>
