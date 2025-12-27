@@ -2,12 +2,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 // Images
 import img1 from "../assets/kenny-eliason-1-aA2Fadydc-unsplash.webp";
-import img1Wep from "../assets/kenny-eliason-1-aA2Fadydc-unsplash.jpg";
 import img2 from "../assets/sincerely-media-dGxOgeXAXm8-unsplash.webp";
-import img2Wep from "../assets/sincerely-media-dGxOgeXAXm8-unsplash.jpg";
 import img3 from "../assets/scott-graham-5fNmWej4tAA-unsplash.webp";
-import img3Wep from "../assets/scott-graham-5fNmWej4tAA-unsplash.jpg";
 import img4 from "../assets/campaign-creators-gMsnXqILjp4-unsplash.webp";
+import img1Wep from "../assets/kenny-eliason-1-aA2Fadydc-unsplash.jpg";
+import img2Wep from "../assets/sincerely-media-dGxOgeXAXm8-unsplash.jpg";
+import img3Wep from "../assets/scott-graham-5fNmWej4tAA-unsplash.jpg";
 import img4Wep from "../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg";
 
 // Swiper styles
@@ -73,17 +73,18 @@ const SwaperHero = () => {
       {slides.map((slide, index) => (
         <SwiperSlide key={index} className="relative">
           <picture className="w-full">
-            <source srcSet={slide.imgWep} type="image/webp" />
+            <source srcSet={slide.img} type="image/webp" />
             <img
               width={1920}
               height={1080}
               loading="eager"
               fetchPriority="high"
-              src={slide.img}
+              src={slide.imgWep}
               alt={slide.alt}
               className="w-full h-auto opacity-60 xl:h-[800px] object-cover"
             />
           </picture>
+          
           <div className="absolute  top-1/2 right-0 xl:right-10 transform -translate-y-1/2 bg-transparent bg-opacity-50 text-white font-bold p-2 rounded hidden md:flex flex-col items-start  max-w-md md:max-w-md  xl:max-w-md">
             <p className="mb-4 text-left text-sm md:text-xl xl:text-2xl uppercase ">
               {slide.text}

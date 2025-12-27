@@ -52,6 +52,7 @@ const Article = () => {
             autoPlay
             loop
             muted
+            preload="metadata"
             controlsList="nodownload"
           ></video>
         </div>
