@@ -120,7 +120,13 @@ const Header = () => {
           {menuItems.map((item) => (
             <a
               href={`#${item.id}`}
-              onClick={() => setActive(item.id)} 
+              onClick={(e) => {
+                e.preventDefault();
+                setActive(item.id);
+                const section = document.getElementById(item.id);
+                section?.scrollIntoView({ behavior: "smooth" });
+                setMenuOpen(false);
+              }}
               className={`px-3 py-2 rounded-md transition ${
                 active === item.id ? "bg-blue-600 text-white" : "text-black"
               }`}
