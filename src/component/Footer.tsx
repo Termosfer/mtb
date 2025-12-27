@@ -24,7 +24,7 @@ const Footer = () => {
               />
             </svg>
             <p className="text-xs md:text-xs">
-              Bakı, Azərbaycan <br/> Binəqədi rayonu, Rəsulzadə qəsəbəsi,
+              Bakı, Azərbaycan  Binəqədi rayonu, <br/> Rəsulzadə qəsəbəsi,
               İ.Cümşüdov küçəsi 2F
             </p>
           </div>
@@ -68,19 +68,19 @@ const Footer = () => {
 
         <div className="flex gap-4 justify-center md:justify-start w-full md:w-auto">
           <a
-            href="#"
+            href="/"
             className="hover:text-blue-400 transition text-xs md:text-xs"
           >
             Facebook
           </a>
           <a
-            href="#"
+            href="/"
             className="hover:text-blue-400 transition text-xs md:text-xs"
           >
             Instagram
           </a>
           <a
-            href="#"
+            href="/"
             className="hover:text-blue-400 transition text-xs md:text-xs"
           >
             LinkedIn
