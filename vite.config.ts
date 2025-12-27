@@ -7,9 +7,13 @@ export default defineConfig({
   build: {
     minify: "esbuild", 
     sourcemap: false,  
+    chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
-        manualChunks: undefined,
+        manualChunks: {
+          swiper: ["swiper"],
+          react: ["react", "react-dom"],
+        },
       },
     },
   },

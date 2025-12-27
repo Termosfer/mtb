@@ -2,13 +2,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 // Images
 import img1 from "../assets/kenny-eliason-1-aA2Fadydc-unsplash.webp";
-import img1Wep from "../assets/kenny-eliason-1-aA2Fadydc-unsplash.jpg"
+import img1Wep from "../assets/kenny-eliason-1-aA2Fadydc-unsplash.jpg";
 import img2 from "../assets/sincerely-media-dGxOgeXAXm8-unsplash.webp";
-import img2Wep from "../assets/sincerely-media-dGxOgeXAXm8-unsplash.jpg"
+import img2Wep from "../assets/sincerely-media-dGxOgeXAXm8-unsplash.jpg";
 import img3 from "../assets/scott-graham-5fNmWej4tAA-unsplash.webp";
-import img3Wep from "../assets/scott-graham-5fNmWej4tAA-unsplash.jpg"
+import img3Wep from "../assets/scott-graham-5fNmWej4tAA-unsplash.jpg";
 import img4 from "../assets/campaign-creators-gMsnXqILjp4-unsplash.webp";
-import img4Wep from "../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg"
+import img4Wep from "../assets/campaign-creators-gMsnXqILjp4-unsplash.jpg";
 
 // Swiper styles
 import "swiper/css";
@@ -75,7 +75,10 @@ const SwaperHero = () => {
           <picture className="w-full">
             <source srcSet={slide.imgWep} type="image/webp" />
             <img
+              width={1920}
+              height={1080}
               loading="eager"
+              fetchPriority="high"
               src={slide.img}
               alt={slide.alt}
               className="w-full h-auto opacity-60 xl:h-[800px] object-cover"
